@@ -22,10 +22,10 @@ requirements:
     - setuptools
     - setuptools_scm
     - cython
-    - numpy x.x
+    - numpy 1.11.*
   run:
     - python
-    - numpy x.x
+    - numpy >=1.11
     - numexpr
     - dask
     - pandas
