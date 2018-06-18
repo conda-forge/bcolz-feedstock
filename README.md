@@ -14,14 +14,16 @@ Summary: A columnar data container that can be compressed
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/bcolz-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/bcolz-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/bcolz-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/bcolz-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/bcolz-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/bcolz-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/bcolz-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/bcolz-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/bcolz-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/bcolz-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/bcolz-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/bcolz-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/bcolz/badges/version.svg)](https://anaconda.org/conda-forge/bcolz)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/bcolz/badges/downloads.svg)](https://anaconda.org/conda-forge/bcolz)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-bcolz-green.svg)](https://anaconda.org/conda-forge/bcolz) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/bcolz.svg)](https://anaconda.org/conda-forge/bcolz) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/bcolz.svg)](https://anaconda.org/conda-forge/bcolz) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/bcolz.svg)](https://anaconda.org/conda-forge/bcolz) |
 
 Installing bcolz
 ================
