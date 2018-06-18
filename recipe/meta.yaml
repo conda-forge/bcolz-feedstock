@@ -20,6 +20,10 @@ build:
 
 requirements:
   build:
+    - {{ pin_compatible('numpy') }}
+    - {{ compiler('c') }}
+    - {{ compiler('cxx') }}
+  host:
     - {{ compiler('c') }}
     - {{ compiler('cxx') }}
   host:
@@ -30,7 +34,6 @@ requirements:
     - numpy
   run:
     - python
-    - {{ pin_compatible('numpy') }}
     - numexpr
     - dask
     - pandas
