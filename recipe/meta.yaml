@@ -13,6 +13,7 @@ source:
 
 build:
   number: 1001
+  skip: True  # [py>38]
   script:
     - export DISABLE_BCOLZ_AVX2=""  # [unix]
     - set DISABLE_BCOLZ_AVX2=""  # [win]
