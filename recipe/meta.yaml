@@ -38,7 +38,7 @@ requirements:
     - {{ pin_compatible('numpy') }}
     - numexpr
     - dask
-    - pandas
+    - pandas <1
     - pytables
 
 test:
